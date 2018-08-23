@@ -4,6 +4,12 @@ Playing around with Google's [DeepDream](https://ai.googleblog.com/2015/06/incep
 ## Resources
 This example is based on Google's algorithms for feature visualization in their [Tensorflow examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/deepdream) and [HvassLabs](https://github.com/Hvass-Labs/TensorFlow-Tutorials)'s recursive image optimization algorithm. 
 
+## Requirements
+
+ - Python version 3.6 or higher (or Anaconda 3) and Jupyter Notebook.
+ - Tensorflow version 1.10.0 or higher (CPU or GPU version) - Note that the GPU version requires you to have an nvidia gpu and you are required to install various nvidia drivers (CUDA and BLAS), but I still prefer it because it processes images a lot faster.
+ - Pillow's PIL.Image package version 3.0 or higher (normally comes with Anaconda 3) - image processing
+ 
 ## Idea
 Testing how the Inception V5 and VGG16 models and their layers react to random noise and different input images in terms of features. The following algorithms suggested by Google were tested:
 1. Simple gradient ascent

@@ -1,4 +1,4 @@
-# DeepDream
+# DeepDream Image Generation
 Playing around with Google's [DeepDream](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) algorithm for feature visualization.
 
 ## Resources
